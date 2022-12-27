@@ -58,14 +58,12 @@ img {
   --footer-text: #e7e9fc;
 }
 
-
 body {
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
 }
 
-
-.conteiner{
+.conteiner {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -97,11 +95,10 @@ body {
   border-bottom: 0.5px solid rgba(46, 47, 66, 0.08);
 }
 
-.nav-conteiner{
+.nav-conteiner {
   display: flex;
   align-items: center;
 }
-
 
 .nav {
   display: flex;
@@ -158,10 +155,9 @@ body {
 .hero {
   text-align: center;
   margin: 0 auto;
-  background-color: #2E2F42;;
+  background-color: #2e2f42;
   padding: 192px 0;
 }
-
 
 .hero-title {
   font-weight: 600;
@@ -177,7 +173,7 @@ body {
   width: 500px;
 }
 
-.hero  .hero-button {
+.hero .hero-button {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.2;
@@ -194,12 +190,11 @@ body {
   border: transparent;
 }
 
-.hero  .hero-button:hover,
-.hero  .hero-button:focus {
+.hero .hero-button:hover,
+.hero .hero-button:focus {
   color: var(--primary-whity-color);
   background-color: var(--second-button-color);
 }
-
 
 /* advantage list */
 
@@ -211,7 +206,6 @@ body {
 
 .advantage-list .item {
   width: 264px;
- 
 }
 
 .advantage-list .title {
@@ -232,11 +226,11 @@ body {
 }
 
 /* work */
-.work-list{
-padding: 120px 0;
+.work-list {
+  padding: 120px 0;
 }
 
-.work-list  .title {
+.work-list .title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
@@ -246,34 +240,31 @@ padding: 120px 0;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-text-color);
- 
+
   margin-bottom: 70px;
 }
 
-.work-list  .list {
- display: flex;
- gap: 24px;
+.work-list .list {
+  display: flex;
+  gap: 24px;
 }
-
-
 
 /* team-list */
 .team-list {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
   padding: 120px 0;
 }
 
-.team-list .list{
+.team-list .list {
   display: flex;
   gap: 24px;
- 
 }
 
-.team-list-item{
+.team-list-item {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.team-list  .secion-title {
+.team-list .secion-title {
   font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
@@ -302,9 +293,12 @@ padding: 120px 0;
   letter-spacing: 0.02em;
 }
 
-.team-list-content{
+.team-list-content {
   padding: 32px;
   background-color: var(--primary-whity-color);
+  border-radius: 0 0 4px 4px;
+  border: 0.5px solid rgba(46, 47, 66, 0.08);
+  border-top: transparent;
 }
 
 /* portfilio works */
@@ -331,8 +325,8 @@ padding: 120px 0;
   cursor: pointer;
 
   padding: 12px 24px;
-  border: 1px solid #E7E9FC;
-border-radius: 4px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .button:hover,
 .button:focus {
@@ -340,20 +334,17 @@ border-radius: 4px;
   color: var(--primary-whity-color);
 }
 
-
-
-.works .list{
+.works .list {
   display: flex;
   row-gap: 48px;
   column-gap: 24px;
   flex-wrap: wrap;
   flex-basis: calc((100% - 48px) / 3);
-
 }
 
 .works-list-item {
-  padding: 32px 0  32px 16px;
-  background: #FFFFFF;
+  padding: 32px 0 32px 16px;
+  background: #ffffff;
   border: 0.5px solid rgba(46, 47, 66, 0.08);
   border-top: 0.5px solid transparent;
 }
@@ -374,7 +365,6 @@ border-radius: 4px;
   color: var(--primary-text-color);
 }
 
-
 .works .title:hover,
 .works .text:hover,
 .works .title:focus,
@@ -388,7 +378,7 @@ border-radius: 4px;
   padding: 100px 0;
 }
 
-.footer  .text {
+.footer .text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
