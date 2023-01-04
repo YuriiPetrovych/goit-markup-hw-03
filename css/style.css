@@ -197,11 +197,14 @@ body {
 }
 
 /* advantage list */
+.advantage-list{
+  padding-top: 120px;
+}
+
 
 .feature {
   display: flex;
   gap: 24px;
-  padding: 120px 0;
 }
 
 .advantage-list .item {
@@ -298,7 +301,7 @@ body {
   background-color: var(--primary-whity-color);
   border-radius: 0 0 4px 4px;
   border: 0.5px solid rgba(46, 47, 66, 0.08);
-  border-top: transparent;
+  border-top: none;
 }
 
 /* portfilio works */
@@ -346,7 +349,7 @@ body {
   padding: 32px 0 32px 16px;
   background: #ffffff;
   border: 0.5px solid rgba(46, 47, 66, 0.08);
-  border-top: 0.5px solid transparent;
+  border-top: none;
 }
 
 .works .title {
@@ -363,6 +366,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  margin-top: 8px;
 }
 
 .works .title:hover,
